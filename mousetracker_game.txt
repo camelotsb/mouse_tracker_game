@@ -1,3 +1,4 @@
 A game where the player has to click at the points where an animation pops out.
 Try making it look as simple as possible.
 use as little animation.
+one target at a time.
