@@ -1,0 +1,1 @@
+A game where the player has to click at the points where an animation pops out.
