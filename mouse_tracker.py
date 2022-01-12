@@ -1,4 +1,4 @@
-import turtle #sir, i have a doubt in line 135,136
+import turtle #sir, i have a doubt in line 127,128
 import os
 import random
 import time
@@ -42,15 +42,6 @@ target.shapesize(outline=2)
 target.penup()
 targeth=target.clone()
 gamen=1
-#defining functions
-def on_left_click(x,y):
-    target_pos=target.position()
-    hit_precision=( ((target_pos[0]-x)**2)+((target_pos[1]-y)**2) )**(1/2)
-    x1=random.randint(-350,350)
-    y1=random.randint(-350,350)
-    if hit_precision<=2 and gamen==0:
-        target.setpos(x1,y1)
-        targeth.setpos(x1,y1)
 
 #game starting animation 
 target.pendown()
