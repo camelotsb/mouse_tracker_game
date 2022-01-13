@@ -124,8 +124,8 @@ def on_left_click(x,y):
         follow()
         ddd.color("white")
         score=int((20-xyd)*10)
-       #ssc="score:"+srt(score)
-       #score_board.write(ssc)   sir,i have a problem in these two lines
+        ssc="score:"+str(score)
+        score_board.write(ssc,font=('sans',19,'italic'))   #sir,i have a problem in these two lines
                               #  and Im unable to find how to increase the size of the sring
                               #  displayed by the turtle.write()-function
 
