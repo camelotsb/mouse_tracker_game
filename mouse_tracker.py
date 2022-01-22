@@ -131,6 +131,7 @@ def on_left_click(x,y):
         xd,yd=ddd.xcor(),ddd.ycor()
         ddd.home()
         ddd.setpos(xd,yd)
+        ddd.color("white")
 #listen
 turtle.listen()
 wn.onscreenclick(on_left_click)
