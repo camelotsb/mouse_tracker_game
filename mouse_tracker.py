@@ -125,7 +125,7 @@ def on_left_click(x,y):
         ddd.color("white")
         score=int((20-xyd)*10)
         ssc="score:"+str(score)
-        score_board.write(ssc,font=("sans",30))   
+        score_board.write(ssc,font=('sans',25,'italic'))   
 
 #listen
 turtle.listen()
