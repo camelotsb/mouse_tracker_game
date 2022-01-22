@@ -125,8 +125,12 @@ def on_left_click(x,y):
         ddd.color("white")
         score=int((20-xyd)*10)
         ssc="score:"+str(score)
-        score_board.write(ssc,font=('sans',25,'italic'))   
-
+        score_board.write(ssc,font=('sans',25,'italic'))
+    else:
+        ddd.color("red")
+        xd,yd=ddd.xcor(),ddd.ycor()
+        ddd.home()
+        ddd.setpos(xd,yd)
 #listen
 turtle.listen()
 wn.onscreenclick(on_left_click)
